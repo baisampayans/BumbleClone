@@ -13,6 +13,14 @@
 		000003142C4BBAF00049E22A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 000003132C4BBAF00049E22A /* Preview Assets.xcassets */; };
 		0000031C2C4BBC3E0049E22A /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0000031B2C4BBC3E0049E22A /* SDWebImageSwiftUI */; };
 		0000031F2C4BBC940049E22A /* ImageLoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000031E2C4BBC940049E22A /* ImageLoaderView.swift */; };
+		D85036162C4C0F13004D217F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85036152C4C0F13004D217F /* Constants.swift */; };
+		D85036182C4D3B18004D217F /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85036172C4D3B18004D217F /* DatabaseHelper.swift */; };
+		D850361A2C4D4555004D217F /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85036192C4D4555004D217F /* Product.swift */; };
+		D850361C2C4D457A004D217F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D850361B2C4D457A004D217F /* User.swift */; };
+		D850361F2C4D4F78004D217F /* SwiftfulUI in Frameworks */ = {isa = PBXBuildFile; productRef = D850361E2C4D4F78004D217F /* SwiftfulUI */; };
+		D85036222C4D4FBD004D217F /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = D85036212C4D4FBD004D217F /* SwiftfulRouting */; };
+		D85036262C4D52C1004D217F /* BumbleHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85036252C4D52C1004D217F /* BumbleHomeView.swift */; };
+		D85036282C4D5878004D217F /* BumbleFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85036272C4D5878004D217F /* BumbleFilterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,12 @@
 		000003102C4BBAF00049E22A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		000003132C4BBAF00049E22A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0000031E2C4BBC940049E22A /* ImageLoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoaderView.swift; sourceTree = "<group>"; };
+		D85036152C4C0F13004D217F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D85036172C4D3B18004D217F /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
+		D85036192C4D4555004D217F /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		D850361B2C4D457A004D217F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D85036252C4D52C1004D217F /* BumbleHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbleHomeView.swift; sourceTree = "<group>"; };
+		D85036272C4D5878004D217F /* BumbleFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbleFilterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D850361F2C4D4F78004D217F /* SwiftfulUI in Frameworks */,
+				D85036222C4D4FBD004D217F /* SwiftfulRouting in Frameworks */,
 				0000031C2C4BBC3E0049E22A /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,6 +73,8 @@
 			children = (
 				0000030C2C4BBAEE0049E22A /* BumbleCloneApp.swift */,
 				0000030E2C4BBAEE0049E22A /* ContentView.swift */,
+				D85036242C4D52A1004D217F /* Core */,
+				D85036232C4D528B004D217F /* Components */,
 				0000031D2C4BBC6A0049E22A /* Shared */,
 				000003102C4BBAF00049E22A /* Assets.xcassets */,
 				000003122C4BBAF00049E22A /* Preview Content */,
@@ -76,8 +94,28 @@
 			isa = PBXGroup;
 			children = (
 				0000031E2C4BBC940049E22A /* ImageLoaderView.swift */,
+				D85036152C4C0F13004D217F /* Constants.swift */,
+				D85036172C4D3B18004D217F /* DatabaseHelper.swift */,
+				D85036192C4D4555004D217F /* Product.swift */,
+				D850361B2C4D457A004D217F /* User.swift */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		D85036232C4D528B004D217F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D85036272C4D5878004D217F /* BumbleFilterView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D85036242C4D52A1004D217F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D85036252C4D52C1004D217F /* BumbleHomeView.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +136,8 @@
 			name = BumbleClone;
 			packageProductDependencies = (
 				0000031B2C4BBC3E0049E22A /* SDWebImageSwiftUI */,
+				D850361E2C4D4F78004D217F /* SwiftfulUI */,
+				D85036212C4D4FBD004D217F /* SwiftfulRouting */,
 			);
 			productName = BumbleClone;
 			productReference = 000003092C4BBAEE0049E22A /* BumbleClone.app */;
@@ -129,6 +169,8 @@
 			mainGroup = 000003002C4BBAEE0049E22A;
 			packageReferences = (
 				0000031A2C4BBC3E0049E22A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				D850361D2C4D4F78004D217F /* XCRemoteSwiftPackageReference "SwiftfulUI" */,
+				D85036202C4D4FBD004D217F /* XCRemoteSwiftPackageReference "SwiftfulRouting" */,
 			);
 			productRefGroup = 0000030A2C4BBAEE0049E22A /* Products */;
 			projectDirPath = "";
@@ -157,8 +199,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0000031F2C4BBC940049E22A /* ImageLoaderView.swift in Sources */,
+				D85036182C4D3B18004D217F /* DatabaseHelper.swift in Sources */,
+				D85036262C4D52C1004D217F /* BumbleHomeView.swift in Sources */,
 				0000030F2C4BBAEE0049E22A /* ContentView.swift in Sources */,
 				0000030D2C4BBAEE0049E22A /* BumbleCloneApp.swift in Sources */,
+				D85036282C4D5878004D217F /* BumbleFilterView.swift in Sources */,
+				D85036162C4C0F13004D217F /* Constants.swift in Sources */,
+				D850361A2C4D4555004D217F /* Product.swift in Sources */,
+				D850361C2C4D457A004D217F /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +422,22 @@
 				minimumVersion = 3.1.1;
 			};
 		};
+		D850361D2C4D4F78004D217F /* XCRemoteSwiftPackageReference "SwiftfulUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		D85036202C4D4FBD004D217F /* XCRemoteSwiftPackageReference "SwiftfulRouting" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulRouting.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.3.5;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -381,6 +445,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 0000031A2C4BBC3E0049E22A /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
+		};
+		D850361E2C4D4F78004D217F /* SwiftfulUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D850361D2C4D4F78004D217F /* XCRemoteSwiftPackageReference "SwiftfulUI" */;
+			productName = SwiftfulUI;
+		};
+		D85036212C4D4FBD004D217F /* SwiftfulRouting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D85036202C4D4FBD004D217F /* XCRemoteSwiftPackageReference "SwiftfulRouting" */;
+			productName = SwiftfulRouting;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
