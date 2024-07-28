@@ -21,6 +21,10 @@
 		D85036222C4D4FBD004D217F /* SwiftfulRouting in Frameworks */ = {isa = PBXBuildFile; productRef = D85036212C4D4FBD004D217F /* SwiftfulRouting */; };
 		D85036262C4D52C1004D217F /* BumbleHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85036252C4D52C1004D217F /* BumbleHomeView.swift */; };
 		D85036282C4D5878004D217F /* BumbleFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85036272C4D5878004D217F /* BumbleFilterView.swift */; };
+		D850362A2C5005EC004D217F /* BumbleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85036292C5005EC004D217F /* BumbleCardView.swift */; };
+		D850362C2C50091F004D217F /* BumbleHeartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D850362B2C50091F004D217F /* BumbleHeartView.swift */; };
+		D850362E2C569E88004D217F /* InterestPillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D850362D2C569E88004D217F /* InterestPillView.swift */; };
+		D85036302C56A16B004D217F /* InterestPillGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D850362F2C56A16B004D217F /* InterestPillGridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		D850361B2C4D457A004D217F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D85036252C4D52C1004D217F /* BumbleHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbleHomeView.swift; sourceTree = "<group>"; };
 		D85036272C4D5878004D217F /* BumbleFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbleFilterView.swift; sourceTree = "<group>"; };
+		D85036292C5005EC004D217F /* BumbleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbleCardView.swift; sourceTree = "<group>"; };
+		D850362B2C50091F004D217F /* BumbleHeartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumbleHeartView.swift; sourceTree = "<group>"; };
+		D850362D2C569E88004D217F /* InterestPillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestPillView.swift; sourceTree = "<group>"; };
+		D850362F2C56A16B004D217F /* InterestPillGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestPillGridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,10 @@
 			isa = PBXGroup;
 			children = (
 				D85036272C4D5878004D217F /* BumbleFilterView.swift */,
+				D85036292C5005EC004D217F /* BumbleCardView.swift */,
+				D850362B2C50091F004D217F /* BumbleHeartView.swift */,
+				D850362D2C569E88004D217F /* InterestPillView.swift */,
+				D850362F2C56A16B004D217F /* InterestPillGridView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -201,7 +213,11 @@
 				0000031F2C4BBC940049E22A /* ImageLoaderView.swift in Sources */,
 				D85036182C4D3B18004D217F /* DatabaseHelper.swift in Sources */,
 				D85036262C4D52C1004D217F /* BumbleHomeView.swift in Sources */,
+				D85036302C56A16B004D217F /* InterestPillGridView.swift in Sources */,
+				D850362E2C569E88004D217F /* InterestPillView.swift in Sources */,
+				D850362A2C5005EC004D217F /* BumbleCardView.swift in Sources */,
 				0000030F2C4BBAEE0049E22A /* ContentView.swift in Sources */,
+				D850362C2C50091F004D217F /* BumbleHeartView.swift in Sources */,
 				0000030D2C4BBAEE0049E22A /* BumbleCloneApp.swift in Sources */,
 				D85036282C4D5878004D217F /* BumbleFilterView.swift in Sources */,
 				D85036162C4C0F13004D217F /* Constants.swift in Sources */,
